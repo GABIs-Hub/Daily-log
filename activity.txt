@@ -1,7 +1,3 @@
-# 📅 My GitHub Activity Dashboard
-
-## 🚀 Recent Activity
-<!--START_ACTIVITY-->
 - 🚀 **Daily-log**
   ⏱️ 2026-04-23 14:11:08
 - 🚀 **Daily-log**
@@ -22,13 +18,3 @@
   ⏱️ 2026-04-21 01:14:47
 - 🚀 **GABIs-Hub**
   ⏱️ 2026-04-21 01:12:08
-Loading activity...
-<!--END_ACTIVITY-->
-
----
-
-## 📊 Total Push Events
-<!--START_COUNT-->
-29
-0
-<!--END_COUNT-->
