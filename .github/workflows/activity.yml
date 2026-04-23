@@ -1,0 +1,62 @@
+name: Activity Dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/5 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Fetch GitHub events
+        run: |
+          curl -s https://api.github.com/users/GABIs-Hub/events > events.json
+
+      # 🔹 Save raw log
+      - name: Save log.json
+        run: |
+          cp events.json log.json
+
+      # 🔹 Count push events
+      - name: Count pushes
+        run: |
+          jq '[.[] | select(.type=="PushEvent")] | length' events.json > counter.txt
+
+      # 🔹 Generate activity.txt
+      - name: Generate activity.txt
+        run: |
+          jq -r '
+            [.[] | select(.type=="PushEvent")] 
+            | .[:10] 
+            | .[] 
+            | "- 🚀 **" + (.repo.name | split("/")[1]) + "**\n  ⏱️ " + (.created_at | sub("T"; " ") | sub("Z"; ""))
+          ' events.json > activity.txt
+
+      # 🔹 Inject into README
+      - name: Update README
+        run: |
+          awk '/<!--START_ACTIVITY-->/{print;system("cat activity.txt");next}/<!--END_ACTIVITY-->/{print;next}1' README.md > temp.md
+          mv temp.md README.md
+
+          awk '/<!--START_COUNT-->/{print;system("cat counter.txt");next}/<!--END_COUNT-->/{print;next}1' README.md > temp2.md
+          mv temp2.md README.md
+
+      # 🔹 Commit everything
+      - name: Commit updates
+        run: |
+          git config --global user.name "activity-bot"
+          git config --global user.email "bot@github.com"
+          git add .
+          git commit -m "Auto update dashboard" || echo "No changes"
+          git push
