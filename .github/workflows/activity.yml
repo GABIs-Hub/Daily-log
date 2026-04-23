@@ -34,7 +34,7 @@ jobs:
           jq '[.[] | select(.type=="PushEvent")] | length' events.json > counter.txt
 
       # 🔹 Generate activity.txt
-      - name: Generate daily summaries
+      - name: Generate dashboard activity
         run: |
           jq -r '
             [.[] | select(.type=="PushEvent")] 
@@ -44,13 +44,15 @@ jobs:
                 items: .,
                 count: length
               })
+            | .[:5]
             | .[]
-            | "## 📅 " + (.date | strptime("%Y-%m-%d") | strftime("%b %d, %Y")) + "\n"
+            | "### 🗓 " + (.date | strptime("%Y-%m-%d") | strftime("%b %d, %Y")) + "\n"
               + ( .items
-                  | map("- 🚀 " + (.repo.name | split("/")[1]))
+                  | map("🚀 " + (.repo.name | split("/")[1]))
                   | join("\n")
                 )
-              + "\n(" + (.count|tostring) + " pushes)\n"
+              + "\n🧮 " + (.count|tostring) + " pushes\n"
+              + "\n"
           ' events.json > activity.txt
 
       # 🔹 Inject into README
