@@ -2,6 +2,7 @@
 
 ## 🔥 Total Pushes
 <!--START_COUNT-->
+0
 28
 28
 28
