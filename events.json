@@ -1,5 +1,377 @@
 [
   {
+    "id": "10631758553",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3",
+        "repository_url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+        "labels_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/labels{/name}",
+        "comments_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/comments",
+        "events_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/events",
+        "html_url": "https://github.com/GABIs-Hub/portfolio/issues/3",
+        "id": 4651913550,
+        "node_id": "I_kwDOSUYiyc8AAAABFUaRTg",
+        "number": 3,
+        "title": "Readme Issue",
+        "user": {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-06-12T19:10:53Z",
+        "updated_at": "2026-06-12T19:12:22Z",
+        "closed_at": "2026-06-12T19:12:22Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\nI noticed a small typo in the `README.md` file that should be fixed to improve clarity.\n\n## Location\nLine 12 – the word \"recieve\" should be \"receive\".\n\n## Suggested Fix\nChange `recieve` to `receive`.\n\n## Why this matters\nIt's a minor improvement, but good documentation helps others understand the project better.\n\n## Steps to reproduce (optional)\n1. Open README.md\n2. Scroll to line 12\n3. See the typo\n\nThanks!",
+        "reactions": {
+          "url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-06-12T19:12:23Z"
+  },
+  {
+    "id": "10631704463",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3",
+        "repository_url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+        "labels_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/labels{/name}",
+        "comments_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/comments",
+        "events_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/events",
+        "html_url": "https://github.com/GABIs-Hub/portfolio/issues/3",
+        "id": 4651913550,
+        "node_id": "I_kwDOSUYiyc8AAAABFUaRTg",
+        "number": 3,
+        "title": "Readme Issue",
+        "user": {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-06-12T19:10:53Z",
+        "updated_at": "2026-06-12T19:12:22Z",
+        "closed_at": "2026-06-12T19:12:22Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Description\nI noticed a small typo in the `README.md` file that should be fixed to improve clarity.\n\n## Location\nLine 12 – the word \"recieve\" should be \"receive\".\n\n## Suggested Fix\nChange `recieve` to `receive`.\n\n## Why this matters\nIt's a minor improvement, but good documentation helps others understand the project better.\n\n## Steps to reproduce (optional)\n1. Open README.md\n2. Scroll to line 12\n3. See the typo\n\nThanks!",
+        "reactions": {
+          "url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/GABIs-Hub/portfolio/issues/3/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-06-12T19:10:54Z"
+  },
+  {
+    "id": "10631622363",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 1,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/pulls/1",
+        "id": 3628996356,
+        "number": 1,
+        "head": {
+          "ref": "vercel/install-vercel-web-analytics-i-5kyghu",
+          "sha": "3ad88d7543c1b0483bccfe96106117b3dea24371",
+          "repo": {
+            "id": 1229333193,
+            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+            "name": "portfolio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "ea6ce64b0efd378dd2037c5aa8c11467b9aeaa7b",
+          "repo": {
+            "id": 1229333193,
+            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+            "name": "portfolio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-05T07:37:40Z"
+  },
+  {
+    "id": "13242125636",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 726653032,
+      "name": "GABIs-Hub/GABIs-Hub",
+      "url": "https://api.github.com/repos/GABIs-Hub/GABIs-Hub"
+    },
+    "payload": {
+      "repository_id": 726653032,
+      "push_id": 35530042419,
+      "ref": "refs/heads/main",
+      "head": "46b1835ddee9722842c799738947cf8721f550e1",
+      "before": "01b49a79bd5347857241cad63b6af90a8614327c"
+    },
+    "public": true,
+    "created_at": "2026-06-12T18:43:52Z"
+  },
+  {
+    "id": "13242069730",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 726653032,
+      "name": "GABIs-Hub/GABIs-Hub",
+      "url": "https://api.github.com/repos/GABIs-Hub/GABIs-Hub"
+    },
+    "payload": {
+      "repository_id": 726653032,
+      "push_id": 35529987015,
+      "ref": "refs/heads/main",
+      "head": "01b49a79bd5347857241cad63b6af90a8614327c",
+      "before": "639a7db3cb50c63115ba8708606bfdfc99bd6057"
+    },
+    "public": true,
+    "created_at": "2026-06-12T18:42:30Z"
+  },
+  {
+    "id": "13241933579",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 726653032,
+      "name": "GABIs-Hub/GABIs-Hub",
+      "url": "https://api.github.com/repos/GABIs-Hub/GABIs-Hub"
+    },
+    "payload": {
+      "repository_id": 726653032,
+      "push_id": 35529852277,
+      "ref": "refs/heads/main",
+      "head": "639a7db3cb50c63115ba8708606bfdfc99bd6057",
+      "before": "a5016ad9d6bfd3ed851c21b915505bd1e7fcb322"
+    },
+    "public": true,
+    "created_at": "2026-06-12T18:39:13Z"
+  },
+  {
+    "id": "13241683564",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 726653032,
+      "name": "GABIs-Hub/GABIs-Hub",
+      "url": "https://api.github.com/repos/GABIs-Hub/GABIs-Hub"
+    },
+    "payload": {
+      "repository_id": 726653032,
+      "push_id": 35529603972,
+      "ref": "refs/heads/main",
+      "head": "a5016ad9d6bfd3ed851c21b915505bd1e7fcb322",
+      "before": "2a489984e4780d89baabfe4956d9bfe9fe30dd6b"
+    },
+    "public": true,
+    "created_at": "2026-06-12T18:33:08Z"
+  },
+  {
+    "id": "13240113589",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 726653032,
+      "name": "GABIs-Hub/GABIs-Hub",
+      "url": "https://api.github.com/repos/GABIs-Hub/GABIs-Hub"
+    },
+    "payload": {
+      "repository_id": 726653032,
+      "push_id": 35528036635,
+      "ref": "refs/heads/main",
+      "head": "2a489984e4780d89baabfe4956d9bfe9fe30dd6b",
+      "before": "40d3b0107beeedf5ce763f7367b4481029f0c6fd"
+    },
+    "public": true,
+    "created_at": "2026-06-12T17:55:36Z"
+  },
+  {
     "id": "13221911421",
     "type": "PushEvent",
     "actor": {
@@ -592,241 +964,5 @@
     },
     "public": true,
     "created_at": "2026-06-09T23:21:36Z"
-  },
-  {
-    "id": "13074843674",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35364124335,
-      "ref": "refs/heads/test",
-      "head": "3dd08d386be8b185f19d5aebf3713ee2179bcbe6",
-      "before": "6c77a5310bc46d9add58b9ce2d433e32d52c7363"
-    },
-    "public": true,
-    "created_at": "2026-06-09T22:43:27Z"
-  },
-  {
-    "id": "13074815982",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35364096566,
-      "ref": "refs/heads/test",
-      "head": "6c77a5310bc46d9add58b9ce2d433e32d52c7363",
-      "before": "1cb5aa5f2372d2ccd0a7142e718c3de7e43b24c7"
-    },
-    "public": true,
-    "created_at": "2026-06-09T22:42:34Z"
-  },
-  {
-    "id": "13071477865",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35360767991,
-      "ref": "refs/heads/test",
-      "head": "eb655d8d2348da08435ec2bb161275f23b658406",
-      "before": "64d5af5437ef342f7c81016b7959fd3656ef4865"
-    },
-    "public": true,
-    "created_at": "2026-06-09T21:10:30Z"
-  },
-  {
-    "id": "13071322066",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35360612206,
-      "ref": "refs/heads/test",
-      "head": "64d5af5437ef342f7c81016b7959fd3656ef4865",
-      "before": "69052e8605e017ee6e27c4b7aa1aabcd51a2958e"
-    },
-    "public": true,
-    "created_at": "2026-06-09T21:06:38Z"
-  },
-  {
-    "id": "13065007002",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "ref": "test",
-      "ref_type": "branch",
-      "full_ref": "refs/heads/test",
-      "master_branch": "main",
-      "description": "This is a DOM-CSC 206 Group I Project",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2026-06-09T18:39:12Z"
-  },
-  {
-    "id": "13064979001",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "ref": "main",
-      "ref_type": "branch",
-      "full_ref": "refs/heads/main",
-      "master_branch": "main",
-      "description": "This is a DOM-CSC 206 Group I Project",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2026-06-09T18:38:46Z"
-  },
-  {
-    "id": "12964016978",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1252832549,
-      "name": "GABIs-Hub/isaac-portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/isaac-portfolio"
-    },
-    "payload": {
-      "repository_id": 1252832549,
-      "push_id": 35253713016,
-      "ref": "refs/heads/main",
-      "head": "4d09dd8657f440c9441a7da1c6da874640a346a4",
-      "before": "655e5866e877c124e41fb8ce08fb9a814a346979"
-    },
-    "public": true,
-    "created_at": "2026-06-07T23:36:16Z"
-  },
-  {
-    "id": "12963985336",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1252832549,
-      "name": "GABIs-Hub/isaac-portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/isaac-portfolio"
-    },
-    "payload": {
-      "repository_id": 1252832549,
-      "push_id": 35253681409,
-      "ref": "refs/heads/main",
-      "head": "655e5866e877c124e41fb8ce08fb9a814a346979",
-      "before": "f1be04d7c957c477064bea51a985b38060ced789"
-    },
-    "public": true,
-    "created_at": "2026-06-07T23:34:43Z"
-  },
-  {
-    "id": "12963897194",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1252832549,
-      "name": "GABIs-Hub/isaac-portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/isaac-portfolio"
-    },
-    "payload": {
-      "repository_id": 1252832549,
-      "push_id": 35253593134,
-      "ref": "refs/heads/main",
-      "head": "f1be04d7c957c477064bea51a985b38060ced789",
-      "before": "1798fd259970c676f747841a6e1b89b89b5631b8"
-    },
-    "public": true,
-    "created_at": "2026-06-07T23:30:21Z"
   }
 ]
