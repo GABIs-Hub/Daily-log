@@ -1,7 +1,6 @@
 ### 🗓 Jun 09, 2026
 🚀 Furnitown
-🚀 Furnitown
-🧮 2 pushes
+🧮 1 pushes
 
 
 ### 🗓 Jun 10, 2026
@@ -32,5 +31,10 @@
 🚀 deborah-portfolio
 🚀 isaac-portfolio
 🧮 7 pushes
+
+
+### 🗓 Jun 14, 2026
+🚀 isaac-portfolio
+🧮 1 pushes
 
 
