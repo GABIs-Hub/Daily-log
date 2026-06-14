@@ -1,5 +1,187 @@
 [
   {
+    "id": "10673316542",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1256149131,
+      "name": "GABIs-Hub/deborah-portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio/pulls/2",
+        "id": 3863531969,
+        "number": 2,
+        "head": {
+          "ref": "dev",
+          "sha": "ceb01f9cd94aec1c4eb080b3226afd808973f28f",
+          "repo": {
+            "id": 1256149131,
+            "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio",
+            "name": "deborah-portfolio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "b884b715943340cf80ffaa4fb466d5823ecf5e19",
+          "repo": {
+            "id": 1256149131,
+            "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio",
+            "name": "deborah-portfolio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-06-14T18:08:43Z"
+  },
+  {
+    "id": "10673306326",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1256149131,
+      "name": "GABIs-Hub/deborah-portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio"
+    },
+    "payload": {
+      "action": "assigned",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio/pulls/2",
+        "id": 3863531969,
+        "number": 2,
+        "head": {
+          "ref": "dev",
+          "sha": "ceb01f9cd94aec1c4eb080b3226afd808973f28f",
+          "repo": {
+            "id": 1256149131,
+            "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio",
+            "name": "deborah-portfolio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "b884b715943340cf80ffaa4fb466d5823ecf5e19",
+          "repo": {
+            "id": 1256149131,
+            "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio",
+            "name": "deborah-portfolio"
+          }
+        }
+      },
+      "assignee": {
+        "login": "GABIs-Hub",
+        "id": 152714814,
+        "node_id": "U_kgDOCRo-Pg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/GABIs-Hub",
+        "html_url": "https://github.com/GABIs-Hub",
+        "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+        "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+        "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+        "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+        "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+        "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "assignees": [
+        {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2026-06-14T18:08:23Z"
+  },
+  {
+    "id": "10673301389",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1256149131,
+      "name": "GABIs-Hub/deborah-portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio/pulls/2",
+        "id": 3863531969,
+        "number": 2,
+        "head": {
+          "ref": "dev",
+          "sha": "ceb01f9cd94aec1c4eb080b3226afd808973f28f",
+          "repo": {
+            "id": 1256149131,
+            "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio",
+            "name": "deborah-portfolio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "b884b715943340cf80ffaa4fb466d5823ecf5e19",
+          "repo": {
+            "id": 1256149131,
+            "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio",
+            "name": "deborah-portfolio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-06-14T18:08:23Z"
+  },
+  {
     "id": "13308952457",
     "type": "PushEvent",
     "actor": {
@@ -886,83 +1068,5 @@
     },
     "public": true,
     "created_at": "2026-06-10T01:58:56Z"
-  },
-  {
-    "id": "13078261987",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35367532123,
-      "ref": "refs/heads/test",
-      "head": "a73b95e5b8a724c5037865b0be21140d4c3c8869",
-      "before": "9c74c9618d2c4dbf2d4850fe511be173cd1c101d"
-    },
-    "public": true,
-    "created_at": "2026-06-10T00:37:01Z"
-  },
-  {
-    "id": "13077966631",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35367236593,
-      "ref": "refs/heads/test",
-      "head": "9c74c9618d2c4dbf2d4850fe511be173cd1c101d",
-      "before": "4b19b733837c0246a7f076b0df09cce2d22d5817"
-    },
-    "public": true,
-    "created_at": "2026-06-10T00:26:45Z"
-  },
-  {
-    "id": "13076413330",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1264287354,
-      "name": "GABIs-Hub/Furnitown",
-      "url": "https://api.github.com/repos/GABIs-Hub/Furnitown"
-    },
-    "payload": {
-      "repository_id": 1264287354,
-      "push_id": 35365684570,
-      "ref": "refs/heads/test",
-      "head": "7d13c24285298ae2143e89710cc5ed12239d2526",
-      "before": "c26dcc5ebc413d947b394bdb0a9190bf7e1148b8"
-    },
-    "public": true,
-    "created_at": "2026-06-09T23:33:35Z"
   }
 ]
