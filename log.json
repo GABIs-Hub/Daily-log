@@ -463,31 +463,5 @@
     },
     "public": true,
     "created_at": "2026-06-16T18:15:14Z"
-  },
-  {
-    "id": "13421055357",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1252832549,
-      "name": "GABIs-Hub/isaac-portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/isaac-portfolio"
-    },
-    "payload": {
-      "repository_id": 1252832549,
-      "push_id": 35709239815,
-      "ref": "refs/heads/dev",
-      "head": "955ad6ec6eff291c0e5e4d2f8ace5a3755148b06",
-      "before": "4e1cef15dd4681fbbb48e9c473abecf438e5fc57"
-    },
-    "public": true,
-    "created_at": "2026-06-16T17:17:30Z"
   }
 ]
