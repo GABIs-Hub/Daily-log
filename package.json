@@ -1,0 +1,21 @@
+{
+  "name": "daily-log",
+  "version": "1.0.0",
+  "description": "Automated GitHub activity log generator with AI summaries",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "dev": "node scripts/generate.js"
+  },
+  "dependencies": {
+    "ai": "^7.0.34",
+    "@ai-sdk/openai": "^4.0.17",
+    "octokit": "^5.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
