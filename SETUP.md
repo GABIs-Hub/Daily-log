@@ -26,7 +26,7 @@
 3. Click "New repository secret"
 4. Add two secrets:
    - Name: `OPENAI_API_KEY` | Value: (paste your OpenAI key)
-   - `GITHUB_TOKEN` is already provided by GitHub Actions, so you don't need to add it
+   - Name: `GABI_GITHUB_TOKEN` | Value: (paste your GitHub token)
 
 ### Step 4: Test Locally (Optional)
 
@@ -42,7 +42,7 @@ npm install
 cp .env.example .env
 
 # Edit .env and add your tokens
-# GITHUB_TOKEN=ghp_xxxx...
+# GABI_GITHUB_TOKEN=ghp_xxxx...
 # OPENAI_API_KEY=sk-...
 
 # Run the generator

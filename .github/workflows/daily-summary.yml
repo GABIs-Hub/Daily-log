@@ -28,7 +28,7 @@ jobs:
 
       - name: Generate README with activity summary
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GABI_GITHUB_TOKEN }}
           GITHUB_USERNAME: GABIs-Hub
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run generate

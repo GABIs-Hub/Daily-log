@@ -25,7 +25,9 @@ Click "New repository secret" and add:
 - Name: `OPENAI_API_KEY`
 - Value: (paste your OpenAI key)
 
-That's it! GitHub provides `GITHUB_TOKEN` automatically.
+Then add another secret:
+- Name: `GABI_GITHUB_TOKEN`
+- Value: (paste your GitHub token)
 
 ## Step 3: Done! (Let it run)
 
