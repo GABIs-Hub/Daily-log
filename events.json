@@ -1023,31 +1023,5 @@
     },
     "public": true,
     "created_at": "2026-08-18T00:24:20Z"
-  },
-  {
-    "id": "17739442756",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1321748541,
-      "name": "GABIs-Hub/Acire-Ventures-Sales-System",
-      "url": "https://api.github.com/repos/GABIs-Hub/Acire-Ventures-Sales-System"
-    },
-    "payload": {
-      "repository_id": 1321748541,
-      "push_id": 40063335907,
-      "ref": "refs/heads/feature/backend-foundation",
-      "head": "e058664d0c75f2412a20eaeebb0765faf1088c2a",
-      "before": "c96aa84f26e560eb958e28d8cbe82c6abc9a2fa5"
-    },
-    "public": true,
-    "created_at": "2026-08-15T12:34:59Z"
   }
 ]
