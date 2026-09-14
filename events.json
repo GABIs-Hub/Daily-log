@@ -837,32 +837,5 @@
     },
     "public": true,
     "created_at": "2026-08-15T04:47:03Z"
-  },
-  {
-    "id": "17677939128",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1321748541,
-      "name": "GABIs-Hub/Acire-Ventures-Sales-System",
-      "url": "https://api.github.com/repos/GABIs-Hub/Acire-Ventures-Sales-System"
-    },
-    "payload": {
-      "ref": "feature/backend-foundation",
-      "ref_type": "branch",
-      "full_ref": "refs/heads/feature/backend-foundation",
-      "master_branch": "master",
-      "description": "Inventory Web Application",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2026-08-14T18:33:15Z"
   }
 ]
