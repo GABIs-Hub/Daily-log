@@ -1,5 +1,179 @@
 [
   {
+    "id": "21081695877",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "ref": "upgrade",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/upgrade",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-09-14T10:33:03Z"
+  },
+  {
+    "id": "21081668214",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "ref": "vercel/install-vercel-web-analytics-i-5kyghu",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/vercel/install-vercel-web-analytics-i-5kyghu",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-09-14T10:32:46Z"
+  },
+  {
+    "id": "21081225413",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "ref": "vercel/install-and-configure-vercel-s-xwbbex",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/vercel/install-and-configure-vercel-s-xwbbex",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-09-14T10:32:54Z"
+  },
+  {
+    "id": "14986096728",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 2,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/pulls/2",
+        "id": 3629036278,
+        "number": 2,
+        "head": {
+          "ref": "vercel/install-and-configure-vercel-s-xwbbex",
+          "sha": "2e39220d2c872d436c8ee44efb6274e80de7fe91",
+          "repo": {
+            "id": 1229333193,
+            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+            "name": "portfolio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "ea6ce64b0efd378dd2037c5aa8c11467b9aeaa7b",
+          "repo": {
+            "id": 1229333193,
+            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+            "name": "portfolio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-09-11T07:17:56Z"
+  },
+  {
+    "id": "21075606698",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "ref": "upgrade",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/upgrade",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-09-14T10:13:09Z"
+  },
+  {
+    "id": "21073020480",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 43520245365,
+      "ref": "refs/heads/main",
+      "head": "8820fbc97d110b9712a5b72eb4e1c99ad266b998",
+      "before": "ce824d29d34a73501584085b36d837f41aff1259"
+    },
+    "public": true,
+    "created_at": "2026-09-14T09:41:00Z"
+  },
+  {
     "id": "14851873721",
     "type": "ForkEvent",
     "actor": {
@@ -811,31 +985,5 @@
     },
     "public": true,
     "created_at": "2026-08-15T05:44:01Z"
-  },
-  {
-    "id": "17711516365",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1321748541,
-      "name": "GABIs-Hub/Acire-Ventures-Sales-System",
-      "url": "https://api.github.com/repos/GABIs-Hub/Acire-Ventures-Sales-System"
-    },
-    "payload": {
-      "repository_id": 1321748541,
-      "push_id": 40035353749,
-      "ref": "refs/heads/feature/backend-foundation",
-      "head": "d0e1a1f58ca9212881de5b45c5f5aa45b82b161a",
-      "before": "a663fa663a3d7d723a96178f0a579a62a764051d"
-    },
-    "public": true,
-    "created_at": "2026-08-15T04:47:03Z"
   }
 ]
