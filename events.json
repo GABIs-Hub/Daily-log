@@ -1,5 +1,31 @@
 [
   {
+    "id": "21380463985",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 43832769466,
+      "ref": "refs/heads/portfolio-audit-upgrade",
+      "head": "8f3f155c4ff41c39d410c986b6c90b648ba44708",
+      "before": "e8461c94550664d6daf062e23b9eb161ef01043b"
+    },
+    "public": true,
+    "created_at": "2026-09-17T09:23:10Z"
+  },
+  {
     "id": "21350732108",
     "type": "DeleteEvent",
     "actor": {
@@ -1135,27 +1161,5 @@
     },
     "public": true,
     "created_at": "2026-09-01T06:50:42Z"
-  },
-  {
-    "id": "14187531317",
-    "type": "WatchEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1256149131,
-      "name": "GABIs-Hub/deborah-portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/deborah-portfolio"
-    },
-    "payload": {
-      "action": "started"
-    },
-    "public": true,
-    "created_at": "2026-09-01T06:50:39Z"
   }
 ]
