@@ -1,5 +1,77 @@
 [
   {
+    "id": "21503775916",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 43943441985,
+      "ref": "refs/heads/main",
+      "head": "500ca7cff8167ec363dac22120f16c55de0fca15",
+      "before": "ab42aba06b780cb3e537669e83300db173af8877"
+    },
+    "public": true,
+    "created_at": "2026-09-18T13:39:38Z"
+  },
+  {
+    "id": "15295245151",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 6,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/pulls/6",
+        "id": 4568821296,
+        "number": 6,
+        "head": {
+          "ref": "agents/portfolio-audit-and-upgrade",
+          "sha": "3b5ef0745185d56ab91d85d4d14a4603c69d978b",
+          "repo": {
+            "id": 1229333193,
+            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+            "name": "portfolio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "ab42aba06b780cb3e537669e83300db173af8877",
+          "repo": {
+            "id": 1229333193,
+            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
+            "name": "portfolio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-09-18T13:39:37Z"
+  },
+  {
     "id": "21501559202",
     "type": "PushEvent",
     "actor": {
@@ -1208,63 +1280,5 @@
     },
     "public": true,
     "created_at": "2026-09-10T00:05:37Z"
-  },
-  {
-    "id": "14212025785",
-    "type": "WatchEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1224712371,
-      "name": "higgsfield-ai/cli",
-      "url": "https://api.github.com/repos/higgsfield-ai/cli"
-    },
-    "payload": {
-      "action": "started"
-    },
-    "public": true,
-    "created_at": "2026-09-01T15:14:09Z",
-    "org": {
-      "id": 146205480,
-      "login": "higgsfield-ai",
-      "gravatar_id": "",
-      "url": "https://api.github.com/orgs/higgsfield-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/146205480?"
-    }
-  },
-  {
-    "id": "14212019595",
-    "type": "WatchEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 134999697,
-      "name": "higgsfield-ai/higgsfield",
-      "url": "https://api.github.com/repos/higgsfield-ai/higgsfield"
-    },
-    "payload": {
-      "action": "started"
-    },
-    "public": true,
-    "created_at": "2026-09-01T15:14:01Z",
-    "org": {
-      "id": 146205480,
-      "login": "higgsfield-ai",
-      "gravatar_id": "",
-      "url": "https://api.github.com/orgs/higgsfield-ai",
-      "avatar_url": "https://avatars.githubusercontent.com/u/146205480?"
-    }
   }
 ]
