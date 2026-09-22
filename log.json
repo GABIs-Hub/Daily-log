@@ -1,5 +1,27 @@
 [
   {
+    "id": "15491546667",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1259888079,
+      "name": "chaseai-yt/claudex-loop",
+      "url": "https://api.github.com/repos/chaseai-yt/claudex-loop"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-09-22T09:12:31Z"
+  },
+  {
     "id": "21598272865",
     "type": "PushEvent",
     "actor": {
@@ -1140,27 +1162,5 @@
     },
     "public": true,
     "created_at": "2026-09-11T10:16:06Z"
-  },
-  {
-    "id": "14851861781",
-    "type": "WatchEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1364319463,
-      "name": "Atomicx7/Duo-animation",
-      "url": "https://api.github.com/repos/Atomicx7/Duo-animation"
-    },
-    "payload": {
-      "action": "started"
-    },
-    "public": true,
-    "created_at": "2026-09-11T10:15:54Z"
   }
 ]
