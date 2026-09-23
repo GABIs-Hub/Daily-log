@@ -1,5 +1,57 @@
 [
   {
+    "id": "21950260102",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 44368057711,
+      "ref": "refs/heads/portfolio-audit-upgrade",
+      "head": "8bc60d6e30d1b57dc951dd9381f9930bfbcb5edc",
+      "before": "c03737b390c8ec8e76df424f213831a8d4ed872c"
+    },
+    "public": true,
+    "created_at": "2026-09-23T14:25:07Z"
+  },
+  {
+    "id": "21941993425",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 44355655320,
+      "ref": "refs/heads/portfolio-audit-upgrade",
+      "head": "c03737b390c8ec8e76df424f213831a8d4ed872c",
+      "before": "ec528d5859f2df97025be35317954753d1a566b0"
+    },
+    "public": true,
+    "created_at": "2026-09-23T12:05:08Z"
+  },
+  {
     "id": "21941432098",
     "type": "PushEvent",
     "actor": {
@@ -987,141 +1039,5 @@
     },
     "public": true,
     "created_at": "2026-09-15T13:55:33Z"
-  },
-  {
-    "id": "15073143905",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "action": "opened",
-      "number": 5,
-      "pull_request": {
-        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/pulls/5",
-        "id": 4537683712,
-        "number": 5,
-        "head": {
-          "ref": "main",
-          "sha": "ab42aba06b780cb3e537669e83300db173af8877",
-          "repo": {
-            "id": 1229333193,
-            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
-            "name": "portfolio"
-          }
-        },
-        "base": {
-          "ref": "vercel/install-vercel-web-analytics-ns79hl",
-          "sha": "6138cf5576279923511e99d0a6129932b1850497",
-          "repo": {
-            "id": 1229333193,
-            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
-            "name": "portfolio"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-09-15T13:48:50Z"
-  },
-  {
-    "id": "15073143748",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "action": "assigned",
-      "number": 5,
-      "pull_request": {
-        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/pulls/5",
-        "id": 4537683712,
-        "number": 5,
-        "head": {
-          "ref": "main",
-          "sha": "ab42aba06b780cb3e537669e83300db173af8877",
-          "repo": {
-            "id": 1229333193,
-            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
-            "name": "portfolio"
-          }
-        },
-        "base": {
-          "ref": "vercel/install-vercel-web-analytics-ns79hl",
-          "sha": "6138cf5576279923511e99d0a6129932b1850497",
-          "repo": {
-            "id": 1229333193,
-            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
-            "name": "portfolio"
-          }
-        }
-      },
-      "assignee": {
-        "login": "GABIs-Hub",
-        "id": 152714814,
-        "node_id": "U_kgDOCRo-Pg",
-        "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/GABIs-Hub",
-        "html_url": "https://github.com/GABIs-Hub",
-        "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
-        "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
-        "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
-        "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
-        "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
-        "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false
-      },
-      "assignees": [
-        {
-          "login": "GABIs-Hub",
-          "id": 152714814,
-          "node_id": "U_kgDOCRo-Pg",
-          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
-          "gravatar_id": "",
-          "url": "https://api.github.com/users/GABIs-Hub",
-          "html_url": "https://github.com/GABIs-Hub",
-          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
-          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
-          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
-          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
-          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
-          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
-          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
-          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
-          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
-          "type": "User",
-          "user_view_type": "public",
-          "site_admin": false
-        }
-      ]
-    },
-    "public": true,
-    "created_at": "2026-09-15T13:48:50Z"
   }
 ]
