@@ -1,5 +1,57 @@
 [
   {
+    "id": "22031959664",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 44444113651,
+      "ref": "refs/heads/portfolio-audit-upgrade",
+      "head": "b21c76997213beed7d2d7c6002223ee6a2805805",
+      "before": "6a683ff8735a18bc2e54f7ce09944882522df873"
+    },
+    "public": true,
+    "created_at": "2026-09-24T08:49:31Z"
+  },
+  {
+    "id": "22027310219",
+    "type": "PushEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1229333193,
+      "name": "GABIs-Hub/portfolio",
+      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
+    },
+    "payload": {
+      "repository_id": 1229333193,
+      "push_id": 44438433563,
+      "ref": "refs/heads/main",
+      "head": "18d8d09fc8a9681301019dc58ba7201469104e07",
+      "before": "1a90d385edc6da8c7cb002a448fb9f502a0db16a"
+    },
+    "public": true,
+    "created_at": "2026-09-24T07:33:24Z"
+  },
+  {
     "id": "21950260102",
     "type": "PushEvent",
     "actor": {
@@ -967,77 +1019,5 @@
     },
     "public": true,
     "created_at": "2026-09-14T16:37:40Z"
-  },
-  {
-    "id": "15073646586",
-    "type": "PullRequestEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "action": "merged",
-      "number": 5,
-      "pull_request": {
-        "url": "https://api.github.com/repos/GABIs-Hub/portfolio/pulls/5",
-        "id": 4537683712,
-        "number": 5,
-        "head": {
-          "ref": "main",
-          "sha": "ab42aba06b780cb3e537669e83300db173af8877",
-          "repo": {
-            "id": 1229333193,
-            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
-            "name": "portfolio"
-          }
-        },
-        "base": {
-          "ref": "vercel/install-vercel-web-analytics-ns79hl",
-          "sha": "6138cf5576279923511e99d0a6129932b1850497",
-          "repo": {
-            "id": 1229333193,
-            "url": "https://api.github.com/repos/GABIs-Hub/portfolio",
-            "name": "portfolio"
-          }
-        }
-      }
-    },
-    "public": true,
-    "created_at": "2026-09-15T13:55:32Z"
-  },
-  {
-    "id": "21199590346",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "repository_id": 1229333193,
-      "push_id": 43657695143,
-      "ref": "refs/heads/vercel/install-vercel-web-analytics-ns79hl",
-      "head": "5961b9cb39065a5ac4340bc7f8ee4b6b5a88d2ee",
-      "before": "6138cf5576279923511e99d0a6129932b1850497"
-    },
-    "public": true,
-    "created_at": "2026-09-15T13:55:33Z"
   }
 ]
