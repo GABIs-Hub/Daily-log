@@ -962,7 +962,7 @@
       "ref_type": "branch",
       "full_ref": "refs/heads/agents/portfolio-audit-and-upgrade",
       "master_branch": "main",
-      "description": null,
+      "description": "My Portfolio",
       "pusher_type": "user"
     },
     "public": true,
