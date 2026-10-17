@@ -993,30 +993,5 @@
     },
     "public": true,
     "created_at": "2026-09-17T09:23:10Z"
-  },
-  {
-    "id": "21350732108",
-    "type": "DeleteEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "ref": "vercel/install-vercel-web-analytics-ns79hl",
-      "ref_type": "branch",
-      "full_ref": "refs/heads/vercel/install-vercel-web-analytics-ns79hl",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2026-09-15T14:04:36Z"
   }
 ]
