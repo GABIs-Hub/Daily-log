@@ -940,32 +940,5 @@
     },
     "public": true,
     "created_at": "2026-09-18T12:22:42Z"
-  },
-  {
-    "id": "21492687278",
-    "type": "CreateEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "ref": "agents/portfolio-audit-and-upgrade",
-      "ref_type": "branch",
-      "full_ref": "refs/heads/agents/portfolio-audit-and-upgrade",
-      "master_branch": "main",
-      "description": "My Portfolio",
-      "pusher_type": "user"
-    },
-    "public": true,
-    "created_at": "2026-09-18T11:19:07Z"
   }
 ]
