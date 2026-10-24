@@ -632,57 +632,5 @@
     },
     "public": true,
     "created_at": "2026-09-25T10:54:22Z"
-  },
-  {
-    "id": "22039461805",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "repository_id": 1229333193,
-      "push_id": 44444127248,
-      "ref": "refs/heads/main",
-      "head": "91db8247e19402656c718aaa007c9c0d6b390f28",
-      "before": "18d8d09fc8a9681301019dc58ba7201469104e07"
-    },
-    "public": true,
-    "created_at": "2026-09-24T08:49:42Z"
-  },
-  {
-    "id": "22039066721",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "repository_id": 1229333193,
-      "push_id": 44437816391,
-      "ref": "refs/heads/portfolio-audit-upgrade",
-      "head": "6a683ff8735a18bc2e54f7ce09944882522df873",
-      "before": "8bc60d6e30d1b57dc951dd9381f9930bfbcb5edc"
-    },
-    "public": true,
-    "created_at": "2026-09-24T07:24:57Z"
   }
 ]
