@@ -710,31 +710,5 @@
     },
     "public": true,
     "created_at": "2026-09-24T08:49:31Z"
-  },
-  {
-    "id": "22027310219",
-    "type": "PushEvent",
-    "actor": {
-      "id": 152714814,
-      "login": "GABIs-Hub",
-      "display_login": "GABIs-Hub",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/GABIs-Hub",
-      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
-    },
-    "repo": {
-      "id": 1229333193,
-      "name": "GABIs-Hub/portfolio",
-      "url": "https://api.github.com/repos/GABIs-Hub/portfolio"
-    },
-    "payload": {
-      "repository_id": 1229333193,
-      "push_id": 44438433563,
-      "ref": "refs/heads/main",
-      "head": "18d8d09fc8a9681301019dc58ba7201469104e07",
-      "before": "1a90d385edc6da8c7cb002a448fb9f502a0db16a"
-    },
-    "public": true,
-    "created_at": "2026-09-24T07:33:24Z"
   }
 ]
