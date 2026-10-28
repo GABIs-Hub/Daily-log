@@ -1,5 +1,781 @@
 [
   {
+    "id": "18473345121",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/11",
+        "id": 5053646238,
+        "number": 11,
+        "head": {
+          "ref": "feat/architecture-remediation",
+          "sha": "99706969febf62c26edd48c5f5c1433d8062ff73",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1f575d20f0516799c59ea4791196584ab52a0523",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-28T16:11:30Z"
+  },
+  {
+    "id": "18465499157",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/10",
+        "id": 5053417165,
+        "number": 10,
+        "head": {
+          "ref": "main",
+          "sha": "86d90da31de9face75a235e8c4163bf4723e7d3b",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "feat/architecture-remediation",
+          "sha": "9295fd02907fe753cdef1f792a863348d383564a",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-28T15:58:47Z"
+  },
+  {
+    "id": "18464333886",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11",
+        "repository_url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+        "labels_url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11/labels{/name}",
+        "comments_url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11/comments",
+        "events_url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11/events",
+        "html_url": "https://github.com/GABIs-Hub/AI-Brand-Studio/pull/11",
+        "id": 6082693844,
+        "node_id": "PR_kwDOTqnv6s8AAAABLTiFng",
+        "number": 11,
+        "title": "Add docstrings and enhance documentation for environment checks",
+        "user": {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 11698746054,
+            "node_id": "LA_kwDOTqnv6s8AAAACuUyyxg",
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/labels/documentation",
+            "name": "documentation",
+            "color": "0075ca",
+            "default": true,
+            "description": "Improvements or additions to documentation",
+            "archived_at": null,
+            "archived_by": null
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "GABIs-Hub",
+            "id": 152714814,
+            "node_id": "U_kgDOCRo-Pg",
+            "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/GABIs-Hub",
+            "html_url": "https://github.com/GABIs-Hub",
+            "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+            "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+            "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+            "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+            "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+            "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          },
+          {
+            "login": "ojomoyomade09-coder",
+            "id": 258929924,
+            "node_id": "U_kgDOD271BA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/258929924?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/ojomoyomade09-coder",
+            "html_url": "https://github.com/ojomoyomade09-coder",
+            "followers_url": "https://api.github.com/users/ojomoyomade09-coder/followers",
+            "following_url": "https://api.github.com/users/ojomoyomade09-coder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/ojomoyomade09-coder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/ojomoyomade09-coder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/ojomoyomade09-coder/subscriptions",
+            "organizations_url": "https://api.github.com/users/ojomoyomade09-coder/orgs",
+            "repos_url": "https://api.github.com/users/ojomoyomade09-coder/repos",
+            "events_url": "https://api.github.com/users/ojomoyomade09-coder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/ojomoyomade09-coder/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2026-10-28T16:04:04Z",
+        "updated_at": "2026-10-28T16:11:30Z",
+        "closed_at": "2026-10-28T16:11:30Z",
+        "assignee": {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/11",
+          "html_url": "https://github.com/GABIs-Hub/AI-Brand-Studio/pull/11",
+          "diff_url": "https://github.com/GABIs-Hub/AI-Brand-Studio/pull/11.diff",
+          "patch_url": "https://github.com/GABIs-Hub/AI-Brand-Studio/pull/11.patch",
+          "merged_at": "2026-10-28T16:11:30Z"
+        },
+        "body": null,
+        "reactions": {
+          "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/comments/6474069040",
+        "html_url": "https://github.com/GABIs-Hub/AI-Brand-Studio/pull/11#issuecomment-6474069040",
+        "issue_url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/11",
+        "id": 6474069040,
+        "node_id": "IC_kwDOTqnv6s8AAAABgeJ0MA",
+        "user": {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-10-28T16:05:15Z",
+        "updated_at": "2026-10-28T16:05:15Z",
+        "body": "Looks good to merge",
+        "reactions": {
+          "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/issues/comments/6474069040/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null,
+        "minimized": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-28T16:05:15Z"
+  },
+  {
+    "id": "18464219785",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/11",
+        "id": 5053646238,
+        "number": 11,
+        "head": {
+          "ref": "feat/architecture-remediation",
+          "sha": "99706969febf62c26edd48c5f5c1433d8062ff73",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1f575d20f0516799c59ea4791196584ab52a0523",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-28T16:04:04Z"
+  },
+  {
+    "id": "18464219179",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "labeled",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/11",
+        "id": 5053646238,
+        "number": 11,
+        "head": {
+          "ref": "feat/architecture-remediation",
+          "sha": "99706969febf62c26edd48c5f5c1433d8062ff73",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1f575d20f0516799c59ea4791196584ab52a0523",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      },
+      "label": {
+        "id": 11698746054,
+        "node_id": "LA_kwDOTqnv6s8AAAACuUyyxg",
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/labels/documentation",
+        "name": "documentation",
+        "color": "0075ca",
+        "default": true,
+        "description": "Improvements or additions to documentation",
+        "archived_at": null,
+        "archived_by": null
+      },
+      "labels": [
+        {
+          "id": 11698746054,
+          "node_id": "LA_kwDOTqnv6s8AAAACuUyyxg",
+          "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/labels/documentation",
+          "name": "documentation",
+          "color": "0075ca",
+          "default": true,
+          "description": "Improvements or additions to documentation",
+          "archived_at": null,
+          "archived_by": null
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2026-10-28T16:04:04Z"
+  },
+  {
+    "id": "18464216834",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "assigned",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/11",
+        "id": 5053646238,
+        "number": 11,
+        "head": {
+          "ref": "feat/architecture-remediation",
+          "sha": "99706969febf62c26edd48c5f5c1433d8062ff73",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1f575d20f0516799c59ea4791196584ab52a0523",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      },
+      "assignee": {
+        "login": "ojomoyomade09-coder",
+        "id": 258929924,
+        "node_id": "U_kgDOD271BA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/258929924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ojomoyomade09-coder",
+        "html_url": "https://github.com/ojomoyomade09-coder",
+        "followers_url": "https://api.github.com/users/ojomoyomade09-coder/followers",
+        "following_url": "https://api.github.com/users/ojomoyomade09-coder/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ojomoyomade09-coder/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ojomoyomade09-coder/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ojomoyomade09-coder/subscriptions",
+        "organizations_url": "https://api.github.com/users/ojomoyomade09-coder/orgs",
+        "repos_url": "https://api.github.com/users/ojomoyomade09-coder/repos",
+        "events_url": "https://api.github.com/users/ojomoyomade09-coder/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ojomoyomade09-coder/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "assignees": [
+        {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        {
+          "login": "ojomoyomade09-coder",
+          "id": 258929924,
+          "node_id": "U_kgDOD271BA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/258929924?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ojomoyomade09-coder",
+          "html_url": "https://github.com/ojomoyomade09-coder",
+          "followers_url": "https://api.github.com/users/ojomoyomade09-coder/followers",
+          "following_url": "https://api.github.com/users/ojomoyomade09-coder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ojomoyomade09-coder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ojomoyomade09-coder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ojomoyomade09-coder/subscriptions",
+          "organizations_url": "https://api.github.com/users/ojomoyomade09-coder/orgs",
+          "repos_url": "https://api.github.com/users/ojomoyomade09-coder/repos",
+          "events_url": "https://api.github.com/users/ojomoyomade09-coder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ojomoyomade09-coder/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2026-10-28T16:04:04Z"
+  },
+  {
+    "id": "18464216758",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "assigned",
+      "number": 11,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/11",
+        "id": 5053646238,
+        "number": 11,
+        "head": {
+          "ref": "feat/architecture-remediation",
+          "sha": "99706969febf62c26edd48c5f5c1433d8062ff73",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1f575d20f0516799c59ea4791196584ab52a0523",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      },
+      "assignee": {
+        "login": "ojomoyomade09-coder",
+        "id": 258929924,
+        "node_id": "U_kgDOD271BA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/258929924?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ojomoyomade09-coder",
+        "html_url": "https://github.com/ojomoyomade09-coder",
+        "followers_url": "https://api.github.com/users/ojomoyomade09-coder/followers",
+        "following_url": "https://api.github.com/users/ojomoyomade09-coder/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ojomoyomade09-coder/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ojomoyomade09-coder/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ojomoyomade09-coder/subscriptions",
+        "organizations_url": "https://api.github.com/users/ojomoyomade09-coder/orgs",
+        "repos_url": "https://api.github.com/users/ojomoyomade09-coder/repos",
+        "events_url": "https://api.github.com/users/ojomoyomade09-coder/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ojomoyomade09-coder/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "assignees": [
+        {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        {
+          "login": "ojomoyomade09-coder",
+          "id": 258929924,
+          "node_id": "U_kgDOD271BA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/258929924?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/ojomoyomade09-coder",
+          "html_url": "https://github.com/ojomoyomade09-coder",
+          "followers_url": "https://api.github.com/users/ojomoyomade09-coder/followers",
+          "following_url": "https://api.github.com/users/ojomoyomade09-coder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/ojomoyomade09-coder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/ojomoyomade09-coder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/ojomoyomade09-coder/subscriptions",
+          "organizations_url": "https://api.github.com/users/ojomoyomade09-coder/orgs",
+          "repos_url": "https://api.github.com/users/ojomoyomade09-coder/repos",
+          "events_url": "https://api.github.com/users/ojomoyomade09-coder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/ojomoyomade09-coder/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2026-10-28T16:04:04Z"
+  },
+  {
+    "id": "18462745926",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/10",
+        "id": 5053417165,
+        "number": 10,
+        "head": {
+          "ref": "main",
+          "sha": "86d90da31de9face75a235e8c4163bf4723e7d3b",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "feat/architecture-remediation",
+          "sha": "9295fd02907fe753cdef1f792a863348d383564a",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-10-28T15:48:25Z"
+  },
+  {
+    "id": "18462745411",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 152714814,
+      "login": "GABIs-Hub",
+      "display_login": "GABIs-Hub",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GABIs-Hub",
+      "avatar_url": "https://avatars.githubusercontent.com/u/152714814?"
+    },
+    "repo": {
+      "id": 1319759850,
+      "name": "GABIs-Hub/AI-Brand-Studio",
+      "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio"
+    },
+    "payload": {
+      "action": "assigned",
+      "number": 10,
+      "pull_request": {
+        "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio/pulls/10",
+        "id": 5053417165,
+        "number": 10,
+        "head": {
+          "ref": "main",
+          "sha": "86d90da31de9face75a235e8c4163bf4723e7d3b",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        },
+        "base": {
+          "ref": "feat/architecture-remediation",
+          "sha": "9295fd02907fe753cdef1f792a863348d383564a",
+          "repo": {
+            "id": 1319759850,
+            "url": "https://api.github.com/repos/GABIs-Hub/AI-Brand-Studio",
+            "name": "AI-Brand-Studio"
+          }
+        }
+      },
+      "assignee": {
+        "login": "GABIs-Hub",
+        "id": 152714814,
+        "node_id": "U_kgDOCRo-Pg",
+        "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/GABIs-Hub",
+        "html_url": "https://github.com/GABIs-Hub",
+        "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+        "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+        "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+        "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+        "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+        "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "assignees": [
+        {
+          "login": "GABIs-Hub",
+          "id": 152714814,
+          "node_id": "U_kgDOCRo-Pg",
+          "avatar_url": "https://avatars.githubusercontent.com/u/152714814?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/GABIs-Hub",
+          "html_url": "https://github.com/GABIs-Hub",
+          "followers_url": "https://api.github.com/users/GABIs-Hub/followers",
+          "following_url": "https://api.github.com/users/GABIs-Hub/following{/other_user}",
+          "gists_url": "https://api.github.com/users/GABIs-Hub/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/GABIs-Hub/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/GABIs-Hub/subscriptions",
+          "organizations_url": "https://api.github.com/users/GABIs-Hub/orgs",
+          "repos_url": "https://api.github.com/users/GABIs-Hub/repos",
+          "events_url": "https://api.github.com/users/GABIs-Hub/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/GABIs-Hub/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2026-10-28T15:48:25Z"
+  },
+  {
     "id": "24663028662",
     "type": "PushEvent",
     "actor": {
