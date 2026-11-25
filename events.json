@@ -482,6 +482,10 @@
           "user_view_type": "public",
           "site_admin": false
         },
+        "issue_field_values": [
+
+        ],
+        "type": null,
         "active_lock_reason": null,
         "draft": false,
         "pull_request": {
